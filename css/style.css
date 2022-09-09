@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, p, span{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Rubik', sans-serif;
+}
+.container{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.after2::after{
+    margin-left: 10px;
+    text-decoration: line-through 2px;
+}
+/* Header options */
+.header{
+    height: 130px;
+    width: 100%;
+    position: fixed;
+}
+.header_main{
+    width: 100%;
+    height: 50%;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo a img{
+    width: 270px;
+    height: 70px;
+}
+.search_bar{
+    border: 1px solid #ddd;
+    padding: 6px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.search_bar input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #EBE8BEB;
+}
+.search_bar i{
+    color: #aba8a8;
+    padding-top: 4px;
+    font-size: 20px;
+}
+.my_card a{
+    text-decoration: none;
+}
+.my_card a i{
+    font-size: 25px;
+    color: #bab0db;
+}
+.my_card button{
+    border: none;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    background: #dcdcdc;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.user a{
+    text-decoration: none;
+    color: black;
+}
+.user a i{
+    margin-right: 5px;
+}
+.mr1{
+    margin-right: 10px;
+}
+.ml2{
+    margin-left: 10px;
+}
+
+.header_menu{
+    width: 100%;
+    height: 50%;
+    background: #11A0DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_menu ul{
+    display: flex;
+    justify-content: center;
+}
+.header_menu ul li{
+    margin: 0px 20px 0px 20px;
+    list-style: none;
+    cursor: pointer;
+}
+.header_menu ul li a{
+    text-decoration: none;
+}
+.header_menu ul li a span{
+    font-size: 25px;
+    color: white;
+}
+
+/* Slider options */
+.slider img{
+    width: 100%;
+    height: auto;
+}
+
+/* <!-- Benner section --> */
+.benner{
+    margin-top: 10px;
+}
+.benner img{
+    width: 100%;
+    height: auto;
+}
+.benner h3{
+    padding: 12px 0px 5px 43px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 30px;
+    border-bottom: 2px solid #ddd;
+}
+.benner h3::after{
+    content: "";
+    display: inline-block;
+    border: 2px solid rgb(78, 78, 201);
+    margin-bottom: -15px;
+}
+.todays_special::after{
+    width: 217px;
+    margin-left: -217px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 15px 0px 15px;
+}
+.product{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 5px 10px 5px;
+    padding: 10px;
+    text-align: center;
+}
+.product h5{
+    line-height: 20px;
+}
+.product h4{
+    color: red;
+}
+.product .pp2::after{
+    content: "৳2,990";
+}
+.product .pp3::after{
+    content: "৳3,990";
+}
+/* <!-- Benner section -2 --> */
+.smart_phone::after{
+    width: 195px;
+    margin-left: -195px;
+}
+
+/* <!-- Benner section -3 --> */
+.mobile_accessories::after{
+    width: 368px;
+    margin-left: -368px;
+}
+.youth590::after{
+    content: "৳1,790";
+}
+.wireless249::after{
+    content: "৳7,990";
+}
+.anker35::after{
+    content: "৳3,990";
+}
+.sports499::after{
+    content: "৳790";
+}
+.headphones659::after{
+    content: "৳1090";
+}
+.xiaomi649::after{
+    content: "৳4,990";
+}
+
+/* <!-- Benner section -4 --> */
+.smart_watch::after{
+    width: 224px;
+    margin-left: -224px;
+}
+.colmi199::after{
+    content: "৳2,990";
+}
+.huawei23::after{
+    content: "৳26,999";
+}
+.mibro749::after{
+    content: "৳4,990";
+}
+.haylou3099::after{
+    content: "৳3,990";
+}
+.amazfit17::after{
+    content: "৳22,999";
+}
+.amazfit299::after{
+    content: "৳9,999";
+}
+
+/* <!-- Benner section -5 --> */
+.computer::after{
+    width: 400px;
+    margin-left: -400px;
+}
+.razer1550::after{
+    content: "৳1,899";
+}
+.microsoft30::after{
+    content: "৳36,000";
+}
+.western299::after{
+    content: "৳5,000";
+}
+.redmi999::after{
+    content: "৳15,900";
+}
+.a4tech99::after{
+    content: "৳1,500";
+}
+.archer149::after{
+    content: "৳3,490";
+}
+
+/* <!-- Benner section -6 --> */
+.laptop::after{
+    width: 335px;
+    margin-left: -335px;
+}
+.acer43::after{
+    content: "৳48,000";
+}
+.apple95::after{
+    content: "৳114,900";
+}
+.samsung9999::after{
+    content: "৳14,999";
+}
+
+/* <!-- Benner section -7 --> */
+.lifestyle::after{
+    width: 145px;
+    margin-left: -145px;
+}
+.price3250::after{
+    content: "৳3,700";
+}
+.price12990::after{
+    content: "৳18,000";
+}
+.price599::after{
+    content: "৳1,399";
+}
+.cordless::after{
+    content: "৳2,599";
+}
+.watch74::after{
+    content: "৳8,500";
+}
+
+/* <!-- Benner section -8 --> */
+.electronics::after{
+    width: 450px;
+    margin-left: -450px;
+}
+.price37199::after{
+    content: "৳55,000";
+}
+.price6349::after{
+    content: "৳7,990";
+}
+.price42490::after{
+    content: "৳59,900";
+}
+.price37490::after{
+    content: "৳55,000";
+}
+
+/* <!-- footer section -9 --> */
+.footer{
+    margin-top: 10px;
+    padding: 20px 0 10px 0;
+    background: #bab0db;
+}
+.footer_top{
+    margin-bottom: 10px;
+}
+.f_contact p{
+    color: #4f4d4d;
+    padding: 5px 0 5px 0;
+}
+.f_about a{
+    color: #4f4d4d;
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+.f_app img{
+    width: 150px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.footer_bootom{
+    border: 1px solid #ddd;
+    border-bottom: none;
+    align-items: center;
+    padding-top: 10px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+}
+.social a{}
+.social a i{
+    font-size: 23px;
+    padding: 5px;
+    cursor: pointer;
+}
+.fa-facebook{
+    color: #0067EC;
+}
+.fa-instagram-square{
+    color: rgb(233, 24, 153);
+}
+.fa-youtube{
+    color: red;
+}
+.copy_right p{
+    color: #332c2c;
+}
+.bank img{
+    width: 56px;
+    height: auto;
+    cursor: pointer;
+}
